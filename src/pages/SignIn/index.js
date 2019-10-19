@@ -1,7 +1,17 @@
 import React from 'react';
 
+import logo from '~/assets/logo.svg';
+
 // import { Container } from './styles';
 
 export default function SignIn() {
-  return <h1>Login</h1>;
+  return (
+    <>
+      <img src={logo} alt="GoBarber" />
+
+      <form>
+        <input type="email" />
+      </form>
+    </>
+  );
 }
